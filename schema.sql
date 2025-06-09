@@ -37,7 +37,7 @@ CREATE TABLE inventory (
 -- Table 4: sales_contracts
 CREATE TABLE sales_contracts (
     `id` INT NOT NULL AUTO_INCREMENT,
-    `VIN` VARCHAR(17) NOT NULL,
+    `VIN` INT NOT NULL,
 	`customer_name` VARCHAR(100) NOT NULL,
     `customer_email` VARCHAR(100),
     `date_sold` DATE NOT NULL,
