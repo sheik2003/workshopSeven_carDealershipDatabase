@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------- #
-DROP DATABASE IF EXISTS car_dealerships;
+DROP DATABASE IF EXISTS car_dealership;
 
 CREATE DATABASE car_dealership;
 
@@ -46,7 +46,7 @@ CREATE TABLE sales_contracts (
 );
 
 -- DEALERSHIPS
-INSERT INTO dealerships (category_name, address, phone) VALUES
+INSERT INTO dealerships (catergory_name, address, phone) VALUES
 ('Luxury', '123 Park Ave, Manhattan, NY', '2125551234'),
 ('Economy', '456 Flatbush Ave, Brooklyn, NY', '7185555678'),
 ('SUVs', '789 Hillside Ave, Queens, NY', '3475559101'),
